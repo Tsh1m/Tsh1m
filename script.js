@@ -8,7 +8,7 @@ let framew = document.querySelector(".type"); //framew
 let links = document.querySelector(".links"); //framew
 
 /* fetch language*/
-fetch("lang.json")
+fetch("json/lang.json")
     .then((rep) => rep.json())
     .then((data) => {
         data["lang"].forEach((element) => {
@@ -18,7 +18,7 @@ fetch("lang.json")
     .catch((reason) => (ens.innerHTML += reason));
 
 /*fetch framework*/
-fetch("framework.json")
+fetch("json/framework.json")
     .then((rep) => rep.json())
     .then((data) => {
         for (const key in data) {
@@ -33,7 +33,7 @@ fetch("framework.json")
     .catch((reason) => (framew.innerHTML += reason));
 
 /*fetch social */
-fetch("net.json")
+fetch("json/net.json")
     .then((rep) => rep.json())
     .then((data) => {
         for (const key in data) {
