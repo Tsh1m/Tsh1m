@@ -1,0 +1,6 @@
+{
+    "Laravel": { "name": "Laravel", "imgsrc": "./image/laravel.svg" },
+    "Node": { "name": "Node.js", "imgsrc": "./image/Node.js.svg" },
+    "Vue": { "name": "Vue.js", "imgsrc": "./image/Vue.js.svg" },
+    "Tailwind": { "name": "Tailwind", "imgsrc": "./image/Tailwind.svg" }
+}
