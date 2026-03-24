@@ -17,6 +17,7 @@ fetch("json/lang.json")
     })
     .catch((reason) => (ens.innerHTML += reason));
 
+
 /*fetch framework*/
 fetch("json/framework.json")
     .then((rep) => rep.json())
