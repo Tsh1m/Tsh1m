@@ -38,9 +38,9 @@ fetch("json/net.json")
     .then((data) => {
         for (const key in data) {
             links.innerHTML +=
-                ' <div class="link"> <a href=' +
+                ' <div class="link"> <a href= ' +
                 data[key].link +
-                'target="_blank"><img src=' +
+                ' target="_blank"><img src=' +
                 data[key].imgsrc +
                 ' alt="" /></div>';
         }
